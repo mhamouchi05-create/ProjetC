@@ -65,7 +65,7 @@ int main(int argc, char *argv[]) {
 	        printf("    5 Voire les tarifs des Extras                          \n");
 	        break;
 	    default:
-	        printf("\033[31mVeuillez encoder un chiffre compris entre 1 et 5.\033[0m\n\n");
+	        printf("\033[34mVeuillez encoder un chiffre compris entre 1 et 5.\033[0m\n\n");
 	        break;
 }
 }while(choix < 1 || choix >5);
